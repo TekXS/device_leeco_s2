@@ -23,8 +23,7 @@ $(call inherit-product, vendor/leeco/s2/s2-vendor.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay
 
 # Screen density
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
@@ -269,10 +268,6 @@ PRODUCT_PACKAGES += \
 # Lights
 PRODUCT_PACKAGES += \
     lights.msm8952
-
-# Livedisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@1.0-service-legacymm
 
 # Media
 PRODUCT_COPY_FILES += \
