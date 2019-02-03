@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_s2.mk
+    $(LOCAL_DIR)/bliss_s2.mk
